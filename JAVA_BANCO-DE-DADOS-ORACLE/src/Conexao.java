@@ -19,8 +19,7 @@ public class Conexao {
 
 		try {
 			Class.forName(driver); // REFERENCIA O DRIVER PARA TENTATIVA DE CONEXÃO
-			connection = DriverManager.getConnection(url, login, senha); // ASSOCIA A URL, LOGIN E SENHA AO DRIVER PARA
-																			// ACESSAR
+			connection = DriverManager.getConnection(url, login, senha); // ASSOCIA A URL, LOGIN E SENHA AO DRIVER PARA ACESSO
 
 		} catch (ClassNotFoundException e1) {
 			System.out.println("Erro ao carregor o driver\n" + e1);
