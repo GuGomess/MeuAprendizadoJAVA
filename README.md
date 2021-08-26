@@ -1,3 +1,3 @@
-# My-Java-Learning
-All my little studies projects learning about **Java** language. From the last 2 years until now.
-Since the basics to the advanced.
+# Meu-Aprendizado-Java
+Todos os meus pequenos projetos dos últimos 2 anos até agora aprendendo sobre a linguagem **Java**.
+Desde o básico até o avançado.
