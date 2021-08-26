@@ -1,4 +1,5 @@
 # Meu-Aprendizado-Java
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Italian Trulli">
 Todos os meus pequenos projetos dos últimos 2 anos e até agora aprendendo sobre a linguagem **Java**.
 Desde o básico até o avançado.
 
