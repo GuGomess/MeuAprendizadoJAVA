@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="br.fiap.funcionario.Funcionario" project="Exemplos_ENUMERAÇÃO" 
+    file="/Exemplos_ENUMERAÇÃO/src/br/fiap/funcionario/Funcionario.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="169" width="267" x="102" y="346"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="2" language="java" name="br.fiap.cargo.Cargo_ENUMERATOR" project="Exemplos_ENUMERAÇÃO" 
+    file="/Exemplos_ENUMERAÇÃO/src/br/fiap/cargo/Cargo_ENUMERATOR.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="133" width="208" x="102" y="555"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="3" language="java" name="br.fiap.comissao.Comissao_INTERFACE" project="Exemplos_ENUMERAÇÃO" 
+    file="/Exemplos_ENUMERAÇÃO/src/br/fiap/comissao/Comissao_INTERFACE.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="79" width="184" x="102" y="728"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="4" language="java" name="br.fiap.venda.Venda" project="Exemplos_ENUMERAÇÃO" 
+    file="/Exemplos_ENUMERAÇÃO/src/br/fiap/venda/Venda.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="115" width="156" x="102" y="191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="br.fiap.main.Main" project="Exemplos_ENUMERAÇÃO" 
+    file="/Exemplos_ENUMERAÇÃO/src/br/fiap/main/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="113" x="298" y="191"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="6">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="7" name="funcionario"/>      
+      <multiplicity id="8" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="9">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="10" name="cargo"/>      
+      <multiplicity id="11" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="2" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="12">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
