@@ -2,7 +2,7 @@
 Todos os meus pequenos projetos dos últimos 2 anos e até agora aprendendo sobre a linguagem **Java**.
 Desde o básico até o avançado.
 
-Neste repositório estão presentes a projetos com a implementação dos seguintes tópicos:
+Neste repositório estão presentes diversos projetos com a implementação dos seguintes tópicos:
 - Programação orientação a objetos.
 - Herança.
 - Encapsulamento.
