@@ -10,9 +10,9 @@ public class Conexao {
 	// JDBC:ORACLE:THIN:@ENDEREÇO DO SERVIDOR:PORTA:SERVIÇO
 	private String url = "jdbc:oracle:thin:@oracle.fiap.com.br:1521:ORCL"; // REFERENCIA O CAMINHO DO SERVIDOR
 
-	// CREDENCIAIS DE ACESSO
-	private String login = "rm84979"; // LOGIN
-	private String senha = "100200"; // SENHA
+	// CREDENCIAIS DE ACESSO - (VALORES RETIRADOS POR QUESTÕES DE SEGURANÇA) 
+	private String login = ""; // LOGIN
+	private String senha = ""; // SENHA
 
 	// MÉTODO CONECTAR
 	public Connection Conectar() {
